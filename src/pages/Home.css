@@ -1,0 +1,26 @@
+
+
+/* Home.css */
+
+/* Base styles */
+.logo-animation img {
+   width: 500px;
+   height: auto;
+   margin: 10px auto;
+ }
+
+   
+   /* Media queries for responsiveness */
+   @media (max-width: 768px) {
+
+   }
+   
+   @media (max-width: 480px) {
+      .logo-animation img {
+         width: 300px;
+         height: auto;
+         margin: 10px auto;
+       }
+     
+   }
+   

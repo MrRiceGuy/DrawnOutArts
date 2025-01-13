@@ -1,0 +1,277 @@
+
+
+
+/* App.css */
+
+/* Base styles */
+#root,  body{
+ height: 100vh;
+
+}
+
+body {
+    text-align: center;
+
+    
+}
+
+body p{
+    font-family: Verdana;
+    margin: 10px 0;
+}
+
+body h1, body h2{
+
+    font-family: Cambria;
+}
+
+.main{
+
+    text-align: center;
+}
+
+
+/* Responsive container for artwork */
+.artShow {
+    position: relative;
+    margin: 10px auto;
+    background-color: transparent;
+    border: 5px solid black;
+    width: 90%; /* Responsive width */
+    max-width: 600px; /* Ensure it doesn't get too wide */
+    height: auto; /* Adapt height to the content */
+}
+
+.artShow img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Navigation button styles */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.3s ease, border-color 0.3s ease; /* Smooth effect */
+  }
+
+  /* Animation for blinking */
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Apply the animation to the arrows */
+.arrow-blink {
+    animation: blink 0.6s ease-in-out 4s; /* Blink every 1 second */
+}
+
+/* Delay the blinking effect */
+.arrow-left, .arrow-right {
+    animation-delay: 2s; /* Start blinking after 3 seconds */
+}
+  
+  .arrow-left {
+    left: 10px;
+    border-width: 30px 180px 30px 0;
+    border-color: transparent black transparent transparent;
+  }
+  
+  .arrow-right {
+    right: 10px;
+    border-width: 30px 0 30px 180px;
+
+    border-color: transparent transparent transparent black;
+  }
+  
+  .artShow:hover .arrow {
+    animation: none;
+    opacity: 0.5; /* Make arrows visible on hover */
+  }
+  
+  .arrow-left:hover {
+    border-color: transparent #f1f1f0 transparent transparent;
+    opacity: 0.8 /* Show arrow color */
+  }
+  
+  .arrow-right:hover {
+    border-color: transparent transparent transparent #fdfdfd;
+    opacity: 0.8
+  }
+
+  /* Stop blinking on hover */
+.arrow:hover {
+    animation: none; /* Remove blinking when hovered */
+}
+  
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.navbar ul li {
+    margin: 10px 15px; /* Add spacing for smaller screens */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #ff9800;
+}
+
+
+/*logo*/
+
+
+
+
+
+/* Footer styles */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer a {
+    color: #e6a648;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+.site-nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .site-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .site-nav li {
+    margin: 0 15px;
+  }
+  
+  .site-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .site-nav a:hover {
+    color: #ff9800;
+  }
+
+
+
+  /*About page*/
+
+  .about{
+    width: 80vw;
+  }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .artShow {
+        width: 100%; /* Full width for smaller screens */
+        border-width: 3px; /* Adjust border width */
+    }
+
+    .navbar ul li {
+        margin: 5px 10px; /* Smaller margin */
+    }
+
+    footer {
+        font-size: 14px; /* Adjust font size */
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+  body{
+    display: flex;
+    height: 100vh;
+    font-size: 16px;
+    background-size:contain;
+  }
+
+    .navbar{
+      width: 100vw; 
+    }
+    .navbar ul {
+        flex-direction: column; /* Stack navigation items */
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin: 8px 0; /* Vertical spacing */
+    }
+
+    .arrow-left {
+        left: 10px;
+        border-width: 20px 100px 20px 0;
+        border-color: transparent black transparent transparent;
+      }
+      
+      .arrow-right {
+        right: 10px;
+        border-width: 20px 0 20px 100px;
+        border-color: transparent transparent transparent black;
+      }
+
+      .logo-animation img {
+        width: 300px;
+        height: auto;
+        margin: 40% auto;
+      }
+    
+      footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+    }
+    
+
+}
