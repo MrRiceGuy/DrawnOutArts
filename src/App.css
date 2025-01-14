@@ -4,15 +4,10 @@
 /* App.css */
 
 /* Base styles */
-#root,  body{
- height: 100vh;
 
-}
 
 body {
     text-align: center;
-
-    
 }
 
 body p{
@@ -116,33 +111,8 @@ body h1, body h2{
   
 
 /* Navigation bar styles */
-.navbar {
-    background-color: #333;
-    padding: 10px 20px;
-}
 
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-}
 
-.navbar ul li {
-    margin: 10px 15px; /* Add spacing for smaller screens */
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-.navbar ul li a:hover {
-    color: #ff9800;
-}
 
 
 /*logo*/
@@ -158,8 +128,9 @@ footer {
     text-align: center;
     padding: 10px 0;
     position: absolute;
-    bottom: 0;
     width: 100vw;
+    bottom: 0;
+    margin-top: auto;
 }
 
 footer a {
@@ -175,6 +146,7 @@ footer a:hover {
 .site-nav {
     background-color: #333;
     padding: 10px 0;
+    width: 100vw;
   }
   
   .site-nav ul {
@@ -214,9 +186,7 @@ footer a:hover {
         border-width: 3px; /* Adjust border width */
     }
 
-    .navbar ul li {
-        margin: 5px 10px; /* Smaller margin */
-    }
+
 
     footer {
         font-size: 14px; /* Adjust font size */
@@ -229,21 +199,16 @@ footer a:hover {
   body{
     display: flex;
     height: 100vh;
+    width: 100vw;
     font-size: 16px;
     background-size:contain;
   }
 
-    .navbar{
-      width: 100vw; 
-    }
-    .navbar ul {
-        flex-direction: column; /* Stack navigation items */
-        align-items: center;
-    }
-
-    .navbar ul li {
-        margin: 8px 0; /* Vertical spacing */
-    }
+  .site-nav {
+    background-color: #333;
+    padding: 10px 0;
+    width: 100vw;
+  }
 
     .arrow-left {
         left: 10px;

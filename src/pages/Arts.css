@@ -97,11 +97,23 @@
 }
 
 @media (max-width: 768px) {
+
+  .background-preview{
+    filter:none;
+  }
   .glass-piece {
+    filter: none;
+    opacity: 0.8;
+    transition: opacity 0.2s ease-in-out;
     position: relative;
     width: 120px;
     height: 100px;
    
+  }
+
+  .glass-piece:active{
+
+    opacity:1;
   }
 
   .glass-text {

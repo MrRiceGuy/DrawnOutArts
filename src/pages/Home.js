@@ -5,7 +5,7 @@ const LogoAnimation = "/images/DOALOGOmoch2.gif"; // Adjust the path based on yo
 
 
 const Home = () => {
-  const images = ["images/baseball-small.png", "images/beachchairs-small.png", "images/bwFlower-small.png", "images/collodionFace-small.png", "images/leaf-small.png"];
+  const images = ["images/baseball-small.png", "images/beachchairs-small.png", "images/bwFlower-small.png", "images/collodionface-small.png", "images/leaf-small.png"];
   const [currentImage, setCurrentImage] = useState(0);
 
   const [blink, setBlink] = useState(true);
