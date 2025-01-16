@@ -133,6 +133,11 @@
 
 @media (max-width: 480px) {
   
+ .glass-container{
+  gap:30px;
+ }
+
+
   .glass-piece {
     position: relative;
     width: 70px;
