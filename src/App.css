@@ -221,6 +221,10 @@ footer a:hover {
     background-size:contain;
   }
 
+  #root {
+    min-height: 80vh;
+ 
+  }
  
   .site-nav {
     background-color: #333;
