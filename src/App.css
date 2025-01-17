@@ -215,7 +215,7 @@ footer a:hover {
 
   body{
     display: flex;
-    height: 100vh;
+    height: 700px;
     width: 380px;
     font-size: 16px;
     background-size:contain;

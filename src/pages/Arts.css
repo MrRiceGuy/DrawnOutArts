@@ -14,7 +14,7 @@
   align-items: center;
   gap: 20px;
   width: 100%;
-  padding: 20px;
+  padding: 20px 20px 20px 30px;
   background-color: #1a1a1a;
   position: relative;
 }
@@ -134,7 +134,7 @@
 @media (max-width: 480px) {
   
  .glass-container{
-  gap:30px;
+  gap: 20px;
  }
 
 
@@ -147,7 +147,7 @@
 
   .glass-text {
 
-    font-size: 12px;
+    font-size: 16px;
     left: -20px;
     top: 20%;
   }
