@@ -9,7 +9,7 @@ const PhotoGrid = () => {
     'images/baseball-small.png',
     'images/beachchairs-small.png',
     'images/bwFlower-small.png',
-    'images/collodionFace-small.png',
+    'images/collodionface-small.png',
   ];
 
   const [selectedImage, setSelectedImage] = useState(null);

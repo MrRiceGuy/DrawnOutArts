@@ -5,7 +5,7 @@ import './Arts.css';
 const categories = [
   { name: 'Photo', image: '/images/baseball-small.png' },
   { name: 'Drawing', image: '/images/bwFlower-small.png' },
-  { name: 'Painting', image: '/images/Collodionface-small.png' },
+  { name: 'Painting', image: '/images/collodionface-small.png' },
   { name: 'Writing', image: '/images/beachchairs-small.png' },
 ];
 
