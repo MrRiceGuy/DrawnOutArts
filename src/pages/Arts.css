@@ -56,7 +56,6 @@
 }
 
 
-
 /* Hover effect to brighten and reveal the blurred background */
 .glass-piece:hover {
   filter: brightness(100%) blur(0);
