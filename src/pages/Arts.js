@@ -23,11 +23,13 @@ const Arts = () => {
     style={{ backgroundImage: `url(${category.image})` }}
     onMouseEnter={() => setHighlightedCategory(category.name)}
     onClick={() => navigate(`/${category.name.toLowerCase()}`)}
+    
   >
-  </div>
-              <div className="glass-text">
+     <div className="glass-text">
               <span>{category.name}</span>
             </div>
+  </div>
+             
             </>
       ))}
       {highlightedCategory && (
