@@ -3,10 +3,10 @@ import { useNavigate } from 'react-router-dom';
 import './Arts.css';
 
 const categories = [
-  { name: 'Photo', image: '/images/baseball-small.png' },
-  { name: 'Drawing', image: '/images/bwFlower-small.png' },
-  { name: 'Painting', image: '/images/collodionface-small.png' },
-  { name: 'Writing', image: '/images/beachchairs-small.png' },
+  { name: 'Photo', image: '/images/pictures/baseball-small.png' },
+  { name: 'Drawing', image: '/images/pictures/bwFlower-small.png' },
+  { name: 'Painting', image: '/images/pictures/collodionface-small.png' },
+  { name: 'Writing', image: '/images/pictures/beachchairs-small.png' },
 ];
 
 const Arts = () => {

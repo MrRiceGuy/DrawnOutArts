@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import './Home.css';
 
-const LogoAnimation = "/images/DOALOGOmoch2.gif"; // Adjust the path based on your folder structureDOALOGOmoch2.gif
+const LogoAnimation = "/images/LogoForWeb.gif"; // Adjust the path based on your folder structureDOALOGOmoch2.gif
 
 
 const Home = () => {
-  const images = ["images/baseball-small.png", "images/beachchairs-small.png", "images/bwFlower-small.png", "images/collodionface-small.png", "images/leaf-small.png"];
+  const images = ["images/pictures/baseball-small.png", "images/pictures/beachchairs-small.png", "images/pictures/bwFlower-small.png", "images/pictures/collodionface-small.png", "images/pictures/leaf-small.png"];
   const [currentImage, setCurrentImage] = useState(0);
 
   const [blink, setBlink] = useState(true);

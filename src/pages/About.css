@@ -5,13 +5,38 @@
 
 /* Base styles */
 
+   body{
+      text-align: center;
+      font: normal normal normal 1.4em/2em Helvetica ;
+   }
+
+   #root{
+      overflow:hidden;
+   }
+
+
+   p{
+      margin: 0 20% !important;
+   }
+
    
    /* Media queries for responsiveness */
    @media (max-width: 768px) {
 
+ body{
+      width: 100vw;
+      font: normal normal normal 1.2em/2em Helvetica ;
+   }
    }
    
    @media (max-width: 480px) {
+
+      body{
+         text-align: center;
+         font: normal normal normal 1em/2em Helvetica ;
+      }
        
+
+
    }
    

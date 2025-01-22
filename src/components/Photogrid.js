@@ -5,11 +5,11 @@ import './photogrid.css';
 const PhotoGrid = () => {
   // Correct image paths from the public folder
   const images = [
-    'images/leaf-small.png',
-    'images/baseball-small.png',
-    'images/beachchairs-small.png',
-    'images/bwFlower-small.png',
-    'images/collodionface-small.png',
+    'images/pictures/leaf-small.png',
+    'images/pictures/baseball-small.png',
+    'images/pictures/beachchairs-small.png',
+    'images/pictures/bwFlower-small.png',
+    'images/pictures/collodionface-small.png',
   ];
 
   const [selectedImage, setSelectedImage] = useState(null);

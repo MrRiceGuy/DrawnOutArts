@@ -25,8 +25,7 @@ function Contact() {
 
   return (
     <div className="contact-page">
-      <h1>Ask Away</h1>
-      <p>Don't be shy</p>
+      <h1>Questions or Concerns?</h1>
 
       <form className="contact-form" onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
