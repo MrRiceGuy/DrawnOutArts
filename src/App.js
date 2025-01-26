@@ -29,7 +29,6 @@ const App = () => {
           <Route path="/writing" element={<Writing />} /> {/* New */}
         </Routes>
       </Router>
-      <Footer />
     </>
   );
 };

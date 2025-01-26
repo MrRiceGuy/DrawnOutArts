@@ -19,7 +19,9 @@ const About = () => {
       <h1>Availability</h1>
        
         <p> Drawn Out Arts is currently available for work involving Web Development and Art Production.</p>
-
+        <a href="https://www.twitch.tv/drawnoutarts" target="_blank" rel="noopener noreferrer">
+        Follow me on Twitch
+      </a>
         </div>
         
     );
