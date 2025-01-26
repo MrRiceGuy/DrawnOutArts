@@ -1,17 +1,7 @@
 import React, { useState } from 'react';
-
 import './photogrid.css';
 
-const PhotoGrid = () => {
-  // Correct image paths from the public folder
-  const images = [
-    'images/pictures/leaf-small.png',
-    'images/pictures/baseball-small.png',
-    'images/pictures/beachchairs-small.png',
-    'images/pictures/bwFlower-small.png',
-    'images/pictures/collodionface-small.png',
-  ];
-
+const PhotoGrid = ({ images }) => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
@@ -20,8 +10,8 @@ const PhotoGrid = () => {
         <div
           key={index}
           className="photo-grid-item"
-          style={{ backgroundImage: `url(${image})` }}
-          onClick={() => setSelectedImage(image)}
+          style={{ backgroundImage: `url(${image.thumbnail})` }}
+          onClick={() => setSelectedImage(image.full)}
         >
           <span>Full Image</span>
         </div>

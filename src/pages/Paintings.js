@@ -1,20 +1,15 @@
 import React from 'react';
 import PhotoGrid from '..//components/Photogrid';
-const photoImages = [
-  '/images/photo1.jpg',
-  '/images/photo2.jpg',
-  '/images/photo3.jpg',
-  '/images/photo4.jpg',
-  '/images/photo5.jpg',
+
+const paintings = [
+  { thumbnail: 'images/paintings/cliffsofjapan.jpg', full: 'images/paintings/cliffsofjapan.jpg' },
+  { thumbnail: 'images/paintings/croppedCat.jpg', full: 'images/paintings/croppedCat.jpg' },
+  { thumbnail: 'images/paintings/Doggy.jpg' , full:'images/paintings/Doggy.jpg' }
+  // Add more paintings here
 ];
 
-const Photo = () => {
-  return (
-    <div>
-      <h1>Painting Gallery</h1>
-      <PhotoGrid images={photoImages} />
-    </div>
-  );
+const Painting = () => {
+  return <PhotoGrid images={paintings} />;
 };
 
-export default Photo;
+export default Painting;

@@ -5,7 +5,7 @@ const LogoAnimation = "/images/LogoForWeb.gif"; // Adjust the path based on your
 
 
 const Home = () => {
-  const images = ["images/pictures/baseball-small.png", "images/pictures/beachchairs-small.png", "images/pictures/bwFlower-small.png", "images/pictures/collodionface-small.png", "images/pictures/leaf-small.png"];
+  const images = ["images/pictures/baseballSmall.png", "images/pictures/beachchairsSmall.png", "images/pictures/bwFlowerSmall.png", "images/pictures/collodionfaceSmall.png", "images/pictures/leafSmall.png"];
   const [currentImage, setCurrentImage] = useState(0);
 
   const [blink, setBlink] = useState(true);
