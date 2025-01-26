@@ -10,6 +10,7 @@
       font: normal normal normal 1.4em/2em Helvetica ;
    }
 
+
    #root{
       overflow:hidden;
    }
@@ -22,6 +23,11 @@
 
    p{
       margin: 0 20% !important;
+      color: white;
+   }
+
+   h1{
+      color: white;
    }
 
    

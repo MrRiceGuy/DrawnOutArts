@@ -42,8 +42,11 @@ const Home = () => {
   src={LogoAnimation}
   alt="Logo Animation: Drawn Out Arts, The D and O morph into eyes and the A turns into the beak to make an owl."
 />
-
       </div>
+
+      <a href="https://www.twitch.tv/drawnoutarts" target="_blank" rel="noopener noreferrer">
+        Follow me on Twitch
+      </a>
     </div>
   );
 };
