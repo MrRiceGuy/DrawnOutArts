@@ -6,7 +6,7 @@ const categories = [
   {
     name: 'Photo',
     image: '/images/pictures/baseballSmall.png',
-    images: ['/images/pictures/StilFlower.jpg', '/images/pictures/bwFlowerSmall.png','/images/pictures/beachchairsSmall.png'],
+    images: ['/images/pictures/StilFlower.jpg', '/images/pictures/bwFlowerSmall.png','/images/pictures/beachchairsSmall.png','/images/pictures/leafSmall.png'],
   },
   {
     name: 'Drawing',
