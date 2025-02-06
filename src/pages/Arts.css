@@ -19,10 +19,16 @@ body{
   height: 100vh;
 }
 
+.categories{
+  height: 50vh;
+  width: 60vw;
+  margin: 0 auto;
+}
+
 /* Category cards */
 .category-card {
-  height: 70px;
-  background-size: cover;
+  height: 33%;
+  background-size: 100%;
   background-repeat: no-repeat;
   font: normal normal normal 1.4em/2em Helvetica;
   color: rgb(255, 255, 255);
@@ -107,6 +113,13 @@ body{
 
 /* Responsive layout */
 @media (max-width: 768px) {
+
+
+  .categories{
+    height: 30vh;
+    width: 100vw;
+    margin: none;
+  }
   .image-grid-item {
     flex: 1 1 calc(50% - 10px); /* 2 columns on tablets */
 
@@ -114,6 +127,24 @@ body{
 }
 
 @media (max-width: 480px) {
+
+  .categories{
+    height: 50vh;
+    width: 100vw;
+    margin: none;
+  }
+  
+  /* Category cards */
+  .category-card {
+    height: 33%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font: normal normal normal 3em/2em Helvetica;
+    color: rgb(255, 255, 255);
+    text-shadow: -4px 4px 2px black;
+  }
+
+
   .image-grid-item {
     max-width: 100px;
     height: auto;
