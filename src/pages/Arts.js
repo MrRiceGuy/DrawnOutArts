@@ -16,7 +16,7 @@ const categories = [
   {
     name: 'Painting',
     image: '/images/paintings/cliffsofJapan.jpg',
-    images: ['/images/paintings/croppedCat.jpg', '/images/paintings/Doggy.jpg'],
+    images: ['/images/paintings/muyfasao.jpg', '/images/paintings/bugs.jpg', '/images/paintings/hellscape.jpg' , '/images/paintings/cliffsofJapan.jpg'],
   },
 
 ];
